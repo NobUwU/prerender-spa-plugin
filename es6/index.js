@@ -1,4 +1,5 @@
 const path = require('path')
+const fs = require('fs')
 const Prerenderer = require('@prerenderer/prerenderer')
 const PuppeteerRenderer = require('@prerenderer/renderer-puppeteer')
 const { minify } = require('html-minifier')
